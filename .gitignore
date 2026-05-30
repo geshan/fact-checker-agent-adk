@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Google ADK fact checker
+fact_checker/.env
+fact_checker/.adk/session.db
