@@ -9,7 +9,7 @@ load_dotenv(override=True)
 
 root_agent = Agent(
     name="Facts",
-    model="gemini-flash-latest", # Gemini 3.5 flash at the time of writing
+    model="gemini-3.5-flash", # Gemini 3.5 flash at the time of writing
     instruction="""You are a fact checker. 
     You will be skeptical about anything that is said to you. 
     You will search the web and verify the given information 
